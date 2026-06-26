@@ -1,0 +1,267 @@
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --surface-alt: #f3f4f6;
+  --text: #111827;
+  --muted: #6b7280;
+  --brand: #111827;
+  --brand-accent: #2563eb;
+  --border: #e5e7eb;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --radius: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero {
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  color: #fff;
+  padding: 72px 24px;
+}
+
+.hero-inner,
+.section,
+.footer {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hero-inner {
+  padding: 0 0 12px;
+}
+
+.eyebrow,
+.section-label {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #93c5fd;
+  margin-bottom: 14px;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 4vw, 4.2rem);
+  line-height: 1.05;
+  margin: 0;
+  max-width: 900px;
+}
+
+.hero-copy {
+  max-width: 720px;
+  font-size: 1.12rem;
+  margin: 18px 0 0;
+  color: #d1d5db;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: var(--brand-accent);
+  color: white;
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.18);
+  color: white;
+}
+
+.section {
+  padding: 48px 24px 0;
+}
+
+.section-header {
+  margin-bottom: 20px;
+}
+
+.section-header h2 {
+  font-size: clamp(1.6rem, 2.5vw, 2.35rem);
+  margin: 0 0 10px;
+}
+
+.section-header p {
+  max-width: 760px;
+  color: var(--muted);
+  margin: 0;
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.info-card,
+.score-card,
+.example-block,
+.callout {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.info-card {
+  padding: 24px;
+}
+
+.info-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+.info-card p,
+.score-card p,
+.example-block p,
+.callout p {
+  color: var(--muted);
+}
+
+.info-card ul {
+  margin: 16px 0 0;
+  padding-left: 18px;
+}
+
+.score-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.score-card {
+  padding: 18px 20px;
+}
+
+.score-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.score-name {
+  font-weight: 700;
+  font-size: 1.02rem;
+}
+
+.score-value {
+  color: var(--brand-accent);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin: 16px 0 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  background: #f9fafb;
+  font-weight: 800;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.example-block {
+  padding: 28px;
+}
+
+.example-label {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--brand-accent);
+  margin-bottom: 10px;
+}
+
+.callout {
+  padding: 28px;
+  background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
+}
+
+.callout h2 {
+  margin-top: 0;
+}
+
+.footer {
+  padding: 40px 24px 56px;
+  text-align: center;
+  color: var(--muted);
+}
+
+.footer strong {
+  color: var(--text);
+}
+
+@media (max-width: 800px) {
+  .two-column,
+  .score-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 56px 20px;
+  }
+
+  .section {
+    padding: 36px 20px 0;
+  }
+}
