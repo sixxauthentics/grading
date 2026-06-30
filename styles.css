@@ -1,13 +1,17 @@
 :root {
-  --bg: #f6f7fb;
+  --bg: #ffffff;
   --surface: #ffffff;
-  --surface-alt: #f3f4f6;
-  --text: #111827;
-  --muted: #6b7280;
-  --brand: #111827;
-  --brand-accent: #2563eb;
-  --border: #e5e7eb;
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --surface-alt: #f5f7f7;
+  --text: #000000;
+  --muted: #2f3a3f;
+  --brand: #000000;
+  --brand-accent: #cdff00;
+  --blue: #003c5e;
+  --green: #53a969;
+  --teal: #137e89;
+  --aqua: #1aa1a1;
+  --border: #d9e1df;
+  --shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
   --radius: 20px;
 }
 
@@ -33,9 +37,10 @@ a {
 }
 
 .hero {
-  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
-  color: #fff;
-  padding: 72px 24px;
+  background: linear-gradient(90deg, var(--blue) 0%, var(--teal) 45%, var(--green) 100%);
+  color: #ffffff;
+  padding: 80px 24px;
+  border-bottom: 6px solid var(--brand-accent);
 }
 
 .hero-inner,
@@ -45,33 +50,30 @@ a {
   margin: 0 auto;
 }
 
-.hero-inner {
-  padding: 0 0 12px;
-}
-
 .eyebrow,
 .section-label {
   display: inline-block;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   font-size: 0.78rem;
-  font-weight: 700;
-  color: #93c5fd;
+  font-weight: 800;
+  color: var(--brand-accent);
   margin-bottom: 14px;
 }
 
 .hero h1 {
-  font-size: clamp(2.4rem, 4vw, 4.2rem);
-  line-height: 1.05;
+  font-size: clamp(2.4rem, 4vw, 4.4rem);
+  line-height: 1.02;
   margin: 0;
-  max-width: 900px;
+  max-width: 920px;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
 }
 
 .hero-copy {
-  max-width: 720px;
+  max-width: 760px;
   font-size: 1.12rem;
   margin: 18px 0 0;
-  color: #d1d5db;
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .hero-actions {
@@ -85,7 +87,7 @@ a {
   display: inline-block;
   padding: 12px 18px;
   border-radius: 999px;
-  font-weight: 700;
+  font-weight: 800;
   border: 1px solid transparent;
   transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
 }
@@ -96,17 +98,17 @@ a {
 
 .btn-primary {
   background: var(--brand-accent);
-  color: white;
+  color: #000000;
 }
 
 .btn-secondary {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.18);
-  color: white;
+  background: rgba(0, 0, 0, 0.15);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #ffffff;
 }
 
 .section {
-  padding: 48px 24px 0;
+  padding: 52px 24px 0;
 }
 
 .section-header {
@@ -142,6 +144,11 @@ a {
 
 .info-card {
   padding: 24px;
+  border-top: 6px solid var(--blue);
+}
+
+.info-card:nth-child(2) {
+  border-top-color: var(--teal);
 }
 
 .info-card h3 {
@@ -170,6 +177,7 @@ a {
 
 .score-card {
   padding: 18px 20px;
+  border-left: 6px solid var(--brand-accent);
 }
 
 .score-top {
@@ -181,13 +189,13 @@ a {
 }
 
 .score-name {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1.02rem;
 }
 
 .score-value {
-  color: var(--brand-accent);
-  font-weight: 800;
+  color: var(--blue);
+  font-weight: 900;
   white-space: nowrap;
 }
 
@@ -213,7 +221,8 @@ td {
 }
 
 th {
-  background: #f9fafb;
+  background: linear-gradient(90deg, var(--blue), var(--teal));
+  color: #ffffff;
   font-weight: 800;
 }
 
@@ -223,6 +232,7 @@ tbody tr:last-child td {
 
 .example-block {
   padding: 28px;
+  border-top: 6px solid var(--green);
 }
 
 .example-label {
@@ -230,11 +240,13 @@ tbody tr:last-child td {
   font-weight: 900;
   color: var(--brand-accent);
   margin-bottom: 10px;
+  text-shadow: 1px 1px 0 #000000;
 }
 
 .callout {
   padding: 28px;
-  background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
+  background: linear-gradient(180deg, rgba(205, 255, 0, 0.16) 0%, #ffffff 100%);
+  border-left: 8px solid var(--brand-accent);
 }
 
 .callout h2 {
@@ -245,10 +257,21 @@ tbody tr:last-child td {
   padding: 40px 24px 56px;
   text-align: center;
   color: var(--muted);
+  border-top: 4px solid var(--blue);
 }
 
 .footer strong {
   color: var(--text);
+}
+
+.footer::before {
+  content: "";
+  display: block;
+  height: 6px;
+  margin: 0 auto 20px;
+  max-width: 220px;
+  background: linear-gradient(90deg, var(--blue), var(--teal), var(--green), var(--brand-accent));
+  border-radius: 999px;
 }
 
 @media (max-width: 800px) {
