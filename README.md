@@ -1,33 +1,44 @@
-# Sixx Authentics Grading Guide
+<p align="center">
+  <img src="https://your-image-url-here" alt="Sixx Authentics" width="420">
+</p>
 
-This repository contains the public-facing grading guide for Sixx Authentics.
+<h1 align="center">Sixx Authentics Grading Standards</h1>
 
-## What this site explains
+<p align="center">
+  <img src="https://img.shields.io/badge/Condition-Grade-003C5E?style=for-the-badge" alt="Condition Grade">
+  <img src="https://img.shields.io/badge/Market-Context-CDFF00?style=for-the-badge" alt="Market Context">
+  <img src="https://img.shields.io/badge/Brand-Sixx%20Authentics-137E89?style=for-the-badge" alt="Brand">
+</p>
 
-- Condition Grade: 0.0–10.0
-- Market Context Score: M0–M5
-- Grading criteria for front condition, back condition, corners, edges, visual appearance, autograph, and provenance
+> Grading with consistency, clarity, and collector trust.
 
-## Project files
+## About this guide
 
-- `index.html` — the webpage
-- `styles.css` — the visual styling
+This repository contains the public grading standards for Sixx Authentics.
 
-## How to view locally
+## Grading system
 
-Open `index.html` in a browser to preview the page.
+### Condition Grade
+- Front condition
+- Back condition
+- Corners
+- Edges
+- Visual appearance
+- Autograph
+- Provenance
 
-## GitHub Pages
+### Market Context Score
+- Scarcity
+- Originality
+- Historical significance
+- Demand
+- Provenance strength
+- Comps availability
 
-This repository can be published with GitHub Pages.
-
-### Recommended setup
-- Branch: `main`
-- Folder: `/root`
-
-### Important
-GitHub Pages needs an `index.html` file in the published branch/folder.
+## Example label
+**9.25 / M3**
 
 ## Brand note
 
-Sixx Authentics grades trading cards with consistency, clarity, and collector trust.
+Sixx Authentics  
+Verify • Protect • Preserve
