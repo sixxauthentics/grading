@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/sixx-authentics-banner.png" alt="Sixx Authentics Banner" width="900">
+  <img src="assets/sixx-authentics-banner.png" alt="Sixx Authentics Banner" width="950">
 </p>
 
 <p align="center">
-  <img src="assets/6AUTHs-LOGO-blk-grn6-stkdSq.png" alt="Sixx Authentics Logo" width="220">
+  <img src="assets/6AUTHs-LOGO-blk-grn6-stkdSq.png" alt="Sixx Authentics Logo" width="240">
 </p>
 
 <h1 align="center">Sixx Authentics Grading Standards</h1>
@@ -20,24 +20,24 @@
 
 ---
 
-## About this guide
+## Overview
 
-This repository contains the public grading standards for Sixx Authentics.
+Sixx Authentics grades trading cards with a focus on consistency, transparency, and collector trust.
 
-Our goal is to create a grading system that is:
-- Consistent.
-- Transparent.
-- Easy to understand.
-- Useful for collectors, buyers, and sellers.
+Our grading system is built around two parts:
+
+- **Condition Grade** — physical quality only.
+- **Market Context Score** — collectability, rarity, originality, significance, and provenance.
+
+This separation keeps the grading process clear, repeatable, and easy to understand.
 
 ---
 
-## Grading system
+## Condition Grade
 
-### Condition Grade
-The Condition Grade measures physical quality only.
+The Condition Grade measures the card’s physical quality on a **0.0–10.0** scale.
 
-It includes:
+### What we evaluate
 - Front condition.
 - Back condition.
 - Corners.
@@ -46,16 +46,34 @@ It includes:
 - Autograph status.
 - Provenance.
 
-### Market Context Score
-The Market Context Score measures collectability and significance.
+### Condition bands
+- **10.0** — Pristine.
+- **9.0–9.9** — Excellent.
+- **8.0–8.9** — Strong with minor flaws.
+- **7.0–7.9** — Clearly worn.
+- **Below 7.0** — Significant wear or damage.
 
-It includes:
+---
+
+## Market Context Score
+
+The Market Context Score measures how special a card is beyond its physical condition.
+
+### What we evaluate
 - Scarcity.
 - Originality.
 - Historical significance.
 - Demand.
 - Provenance strength.
 - Availability of comps.
+
+### Market bands
+- **M0** — Common, no premium.
+- **M1** — Minor premium.
+- **M2** — Moderate premium.
+- **M3** — Strong premium.
+- **M4** — Very strong premium.
+- **M5** — Exceptional premium.
 
 ---
 
@@ -67,32 +85,38 @@ Example:
 
 - The first number is the physical Condition Grade.
 - The M score is the Market Context Score.
-- Together, they show both condition and collectible significance.
+- Together, they describe the card’s quality and collectible position.
 
 ---
 
-## Scoring bands
+## Why this matters
 
-### Condition Grade
-- 10.0 = Pristine.
-- 9.0–9.9 = Excellent.
-- 8.0–8.9 = Strong with minor flaws.
-- 7.0–7.9 = Clearly worn.
-- Below 7.0 = Significant wear or damage.
+A card can be beautiful but common.
+A card can be rare but heavily worn.
 
-### Market Context Score
-- M0 = Common, no premium.
-- M1 = Minor premium.
-- M2 = Moderate premium.
-- M3 = Strong premium.
-- M4 = Very strong premium.
-- M5 = Exceptional premium.
+By separating condition from market context, Sixx Authentics gives both sides of the story without mixing appearance and value into one unclear grade.
+
+---
+
+## Grading philosophy
+
+Our grading process is designed to:
+- Stay consistent across all card types.
+- Reward accuracy over guesswork.
+- Treat rare and historically important cards fairly.
+- Document uncertainty instead of hiding it.
+
+If two possible grades are close, the lower grade is chosen unless there is clear documented justification to move up.
 
 ---
 
 ## Brand note
 
-Sixx Authentics  
-Verify • Protect • Preserve
+<p align="center">
+  <strong>Sixx Authentics</strong><br>
+  Verify • Protect • Preserve
+</p>
 
-Grading with consistency, clarity, and collector trust.
+<p align="center">
+  Grading with consistency, clarity, and collector trust.
+</p>
