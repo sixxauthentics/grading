@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/6AUTHs-LOGO-blk-grn6-stkdSq.jpg" alt="Sixx Authentics Logo" width="220">
+  <img src="assets/6AUTHs-LOGO-blk-grn6-stkdSq.png" alt="Sixx Authentics Logo" width="220">
 </p>
 
 <h1 align="center">Sixx Authentics Grading Standards</h1>
