@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/sixx-authentics-banner.png" alt="Sixx Authentics Banner" width="950">
+  <img src="assets/sixx-authentics-banner-readme.jpg" alt="Sixx Authentics Banner" width="950">
 </p>
 
 <p align="center">
